@@ -1,10 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
-import { GchordsComponent } from './gchords/gchords.component';
-import { BchordsComponent } from './bchords/bchords.component';
-import { PchordsComponent } from './pchords/pchords.component';
-
+import { GchordsComponent } from './components/gchords/gchords.component';
+import { BchordsComponent } from './components/bchords/bchords.component';
+import { PchordsComponent } from './components/pchords/pchords.component';
 
 const routes: Routes = [
   {path: '',component: HomeComponent},
