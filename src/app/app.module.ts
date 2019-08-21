@@ -6,7 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { RegisterComponent } from './components/register/register.component';
 import { GchordsComponent } from './components/gchords/gchords.component';
 import { BchordsComponent } from './components/bchords/bchords.component';
 import { PchordsComponent } from './components/pchords/pchords.component';
@@ -29,7 +28,6 @@ import { G1Component } from './components/gchords/g1/g1.component';
     HomeComponent,
     NavbarComponent,
     FooterComponent,
-    RegisterComponent,
     GchordsComponent,
     BchordsComponent,
     PchordsComponent,
