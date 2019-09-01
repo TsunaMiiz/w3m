@@ -21,6 +21,19 @@ import { FComponent } from './components/gchords/f/f.component';
 import { F1Component } from './components/gchords/f1/f1.component';
 import { GComponent } from './components/gchords/g/g.component';
 import { G1Component } from './components/gchords/g1/g1.component';
+import { ChordsComponent } from './components/chords/chords.component';
+import { PaComponent } from './components/pchords/pa/pa.component';
+import { Pb1Component } from './components/pchords/pb1/pb1.component';
+import { PbComponent } from './components/pchords/pb/pb.component';
+import { PcComponent } from './components/pchords/pc/pc.component';
+import { Pc1Component } from './components/pchords/pc1/pc1.component';
+import { PdComponent } from './components/pchords/pd/pd.component';
+import { Pe1Component } from './components/pchords/pe1/pe1.component';
+import { PeComponent } from './components/pchords/pe/pe.component';
+import { PfComponent } from './components/pchords/pf/pf.component';
+import { Pf1Component } from './components/pchords/pf1/pf1.component';
+import { PgComponent } from './components/pchords/pg/pg.component';
+import { Pg1Component } from './components/pchords/pg1/pg1.component';
 
 @NgModule({
   declarations: [
@@ -42,7 +55,20 @@ import { G1Component } from './components/gchords/g1/g1.component';
     FComponent,
     F1Component,
     GComponent,
-    G1Component
+    G1Component,
+    ChordsComponent,
+    PaComponent,
+    Pb1Component,
+    PbComponent,
+    PcComponent,
+    Pc1Component,
+    PdComponent,
+    Pe1Component,
+    PeComponent,
+    PfComponent,
+    Pf1Component,
+    PgComponent,
+    Pg1Component
   ],
   imports: [
     BrowserModule,
