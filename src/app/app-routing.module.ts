@@ -29,6 +29,11 @@ import { PfComponent } from './components/pchords/pf/pf.component';
 import { Pf1Component } from './components/pchords/pf1/pf1.component';
 import { PgComponent } from './components/pchords/pg/pg.component';
 import { Pg1Component } from './components/pchords/pg1/pg1.component';
+import { PmcComponent } from './components/chords/pmc/pmc.component';
+import { LoveComponent } from './components/chords/love/love.component';
+import { KaokonComponent } from './components/chords/kaokon/kaokon.component';
+import { KebrukComponent } from './components/chords/kebruk/kebruk.component';
+import { BackpackComponent } from './components/chords/backpack/backpack.component';
 
 
 const routes: Routes = [
@@ -60,7 +65,12 @@ const routes: Routes = [
   {path: 'pchords/pf', component: PfComponent},
   {path: 'pchords/pf#', component: Pf1Component},
   {path: 'pchords/pg', component: PgComponent},
-  {path: 'pchords/pg#', component: Pg1Component}
+  {path: 'pchords/pg#', component: Pg1Component},
+  {path: '4chords/pmc', component: PmcComponent},
+  {path: '4chords/love-paradox', component: LoveComponent},
+  {path: '4chords/kaokon-UrboyTJ', component: KaokonComponent},
+  {path: '4chords/kebruk-AmmyTheBottomBlues', component: KebrukComponent},
+  {path: '4chords/backpack-ชาติ_สุชาติ', component: BackpackComponent}
 
 
 ];
@@ -98,5 +108,10 @@ export const routingComponent = [HomeComponent,
                                  PfComponent,
                                  Pf1Component,
                                  PgComponent,
-                                 Pg1Component
+                                 Pg1Component,
+                                 PmcComponent,
+                                 LoveComponent,
+                                 KaokonComponent,
+                                 KebrukComponent,
+                                 BackpackComponent
                                  ]

@@ -34,6 +34,11 @@ import { PfComponent } from './components/pchords/pf/pf.component';
 import { Pf1Component } from './components/pchords/pf1/pf1.component';
 import { PgComponent } from './components/pchords/pg/pg.component';
 import { Pg1Component } from './components/pchords/pg1/pg1.component';
+import { PmcComponent } from './components/chords/pmc/pmc.component';
+import { LoveComponent } from './components/chords/love/love.component';
+import { KaokonComponent } from './components/chords/kaokon/kaokon.component';
+import { KebrukComponent } from './components/chords/kebruk/kebruk.component';
+import { BackpackComponent } from './components/chords/backpack/backpack.component';
 
 @NgModule({
   declarations: [
@@ -68,7 +73,12 @@ import { Pg1Component } from './components/pchords/pg1/pg1.component';
     PfComponent,
     Pf1Component,
     PgComponent,
-    Pg1Component
+    Pg1Component,
+    PmcComponent,
+    LoveComponent,
+    KaokonComponent,
+    KebrukComponent,
+    BackpackComponent
   ],
   imports: [
     BrowserModule,
